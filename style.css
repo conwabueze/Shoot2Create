@@ -1,0 +1,417 @@
+* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Montserrat', sans-serif;  
+	}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar{
+    background-color: white;
+    background-color: rgba(255,255,255,0);
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    border: 0px;
+    top: 10px;
+}
+
+.navbar ul{
+    height: 70px;
+    width: 632px;
+    padding-left: 30px;
+    background-color: rgba(255,255,255,0.5);
+   
+}
+
+.navbar li a{
+    color: black !important;
+    font-size: 23px;
+    padding: 24px 53px 0 0;
+    
+   
+}
+
+.navbar li a#contact{
+padding-right: 0;
+  
+}
+
+.footer{
+    background-color: #6E6F5F;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 150px;
+    clear: both;
+    
+}
+.footer .fa{
+    color: white;
+    margin: 25px 10px 0;
+}
+
+.footer small{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    /*padding: 0 25% 0;*/
+    top: 10px; 
+   
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer a{
+    color: white;
+}
+
+
+
+.header{
+    text-transform: uppercase;
+}
+.header h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: -240px;
+    left: 0;
+}
+
+
+#stephanie-header #color1{
+    background-color: #E0EBF0;
+    height: 800px;
+    padding: 0;
+}
+
+
+#stephanie-header #color2{
+    background-color: #564A43;
+    height: 800px;
+    padding: 0;
+}
+
+#stephanie-header .col-lg-6.col-md-6.col-sm-6{
+    margin:0;
+    padding: 0;
+}
+
+#stephanie-header #picture{
+    background-image: url(imgs/stephanie/header%20photo.jpg);
+    /*background-image: url(imgs/stephanie/picture%202.jpg);*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+   
+    padding: 0 0 0 0;
+}
+
+#stephanie-header #name h1{
+    padding: 0 10px 0 10px;
+    font-size: 160px;
+    color: black;
+    background-color: rgba(255,255,255,0.45);
+    border-width: 0.5px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;   
+}
+@media(max-width:768px){
+ #stephanie-header #name h1{
+        padding: 0 10px 0 10px;
+        font-size: 16vw;
+        color: black;
+        background-color: rgba(255,255,255,0.45);
+        border-width: 0.5px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;   
+    } 
+    
+    .carousel-inner{
+      height: 279px;  
+    }
+}
+
+#stephanie-gallery{
+    position: relative;
+}
+
+#stephanie-gallery .card{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.3s ease-in-out;
+}
+
+#stephanie-gallery .card.is-showing{
+    opacity:1;
+    transform: translateX(0px);
+}
+
+
+#stephanie-gallery .row{
+    padding: 0;
+    margin: 30px;
+}
+#stephanie-gallery .col-lg-4.col-md-4.col-sm-4{
+    padding: 0 0 0 0;
+    height: 500px;
+    text-align: center;
+}
+#stephanie-gallery img{
+    padding: 0 0 0 0;
+    height: 380px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+#stephanie-gallery img:hover{   
+    transform: scale(1.1);
+    
+}
+#stephanie-gallery .col-md-4{
+    padding: 0 0 0 0;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+.right.carousel-control, .left.carousel-control {
+    opacity: 0;
+    filter:alpha(opacity=0); /* IE support */
+}
+#slider .item{
+    height: 800px;
+}
+
+#sec1,#sec2,#sec3,#sec4,#sec5,#sec6{
+    padding: 0;
+
+    
+}
+/*slide1*/
+#sec1 #slide1{
+    background-image: url(imgs/stephanie/Headers/Header1/tricut1.jpg);
+      background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    width: 100%;
+    
+}
+#sec2 #slide1{
+    background-image: url(imgs/stephanie/Headers/Header1/tricut2.png);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+     width: 100%;
+}
+
+#sec3 #slide1{
+    background-image: url(imgs/stephanie/Headers/Header1/tricut3.png);
+ background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+     width: 100%;
+}
+#sec4 #slide1{
+    background-color: #251D28;
+}
+#sec5 #slide1{
+    background-color: #E0EBF0;    
+}
+
+#sec6 #slide1{
+    background-color: #564A43;
+}
+
+/*slide2*/
+#sec1 #slide2{
+    background-color: #6E6F5F;   
+}
+#sec2 #slide2{
+    background-color: #D6D6D6;  
+}
+
+#sec3 #slide2{
+    background-color: #A7483D;  
+}
+#sec4 #slide2{
+    background-image: url(imgs/stephanie/Headers/Header2/tricut1.jpg);
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#sec5 #slide2{
+    background-image: url(imgs/stephanie/Headers/Header2/tricut2.jpg); 
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#sec6 #slide2{
+    background-image: url(imgs/stephanie/Headers/Header2/tricut3.jpg);
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*slide3*/
+#sec1 #slide3{
+     background-image: url(imgs/stephanie/Headers/Header3/tricut1.jpg);
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#sec2 #slide3{
+     background-image: url(imgs/stephanie/Headers/Header3/tricut2.jpg);
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#sec3 #slide3{
+     background-image: url(imgs/stephanie/Headers/Header3/tricut3.jpg);
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#sec4 #slide3{
+    background-color: #6E6F5F;
+}
+#sec5 #slide3{
+    background-color: #B39F87;
+}
+
+#sec6 #slide3{
+    background-color: #6F8E9A;
+}
+
+@media(max-width:768px){
+    /*slide1*/
+   
+
+#sec1 #slide1{
+    background-image: url(imgs/stephanie/Headers/Header1mobile/tricut1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    height: 100%;
+   
+    
+    
+}
+#sec2 #slide1{
+    background-image: url(imgs/stephanie/Headers/Header1mobile/tricut2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+   
+   
+}
+
+#sec3 #slide1{
+    background-image: url(imgs/stephanie/Headers/Header1mobile/tricut3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    
+    }
+    
+#sec1 #slide2{
+    background-color: #251D28; 
+}
+#sec2 #slide2{
+  background-color: #E0EBF0;
+}
+
+#sec3 #slide2{
+   background-color: #564A43;
+    }
+#sec1 #slide3{
+    background-image: url(imgs/stephanie/Headers/Header2mobile/tricut1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    height: 100%;
+
+}
+#sec2 #slide3{
+    background-image: url(imgs/stephanie/Headers/Header2mobile/tricut2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;  
+}
+
+#sec3 #slide3{
+    background-image: url(imgs/stephanie/Headers/Header2mobile/tricut3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    }
+#sec1 #slide4{
+    background-color: #6E6F5F; 
+}
+#sec2 #slide4{
+  background-color: #B39F87;
+}
+
+#sec3 #slide4{
+   background-color: #6F8E9A;
+    }
+#sec1 #slide5{
+    background-image: url(imgs/stephanie/Headers/Header3mobile/tricut1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    height: 100%;
+
+}
+#sec2 #slide5{
+    background-image: url(imgs/stephanie/Headers/Header3mobile/tricut2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;  
+}
+
+#sec3 #slide5{
+    background-image: url(imgs/stephanie/Headers/Header3mobile/tricut3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    }
+#sec1 #slide6{
+    background-color: #D6D6D6; 
+}
+#sec2 #slide6{
+  background-color: #6E6F5F;
+}
+
+#sec3 #slide6{
+   background-color: #A7483D;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
